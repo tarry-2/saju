@@ -1,0 +1,21 @@
+// 출생지 경도(진태양시 보정용). 한국 주요 도시.
+export const CITIES: { name: string; lon: number }[] = [
+  { name: '서울', lon: 126.978 },
+  { name: '인천', lon: 126.705 },
+  { name: '수원', lon: 127.029 },
+  { name: '춘천', lon: 127.734 },
+  { name: '강릉', lon: 128.896 },
+  { name: '대전', lon: 127.385 },
+  { name: '세종', lon: 127.289 },
+  { name: '청주', lon: 127.489 },
+  { name: '전주', lon: 127.148 },
+  { name: '광주', lon: 126.852 },
+  { name: '목포', lon: 126.392 },
+  { name: '대구', lon: 128.601 },
+  { name: '안동', lon: 128.729 },
+  { name: '포항', lon: 129.365 },
+  { name: '부산', lon: 129.075 },
+  { name: '울산', lon: 129.311 },
+  { name: '창원', lon: 128.682 },
+  { name: '제주', lon: 126.531 },
+];
